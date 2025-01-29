@@ -16,6 +16,6 @@ protein	Table to store the name of the gene products.
 qpcr	A particular set of pathogens underwent qPCR testing. This table shows if a tested pathogen can be detected in a given sample.
 relationship_gtdb	GTDB hierarchy between different taxons.
 tax_gtdb	This table stores taxonomy data of the gtdb table.
-qpcr_target	The target (gene, genetic marker, or pathogen-specific region) and primer sequences that were used in the qPCR assays to identify the pathogen (specified in the "qpcr" table).
+qpcr_target	The target (gene, genetic marker, or pathogen-specific region) and primer sequences that were used in the qPCR assays to identify the pathogen (specified in the 'qpcr' table).
 mag_presence_absence	The table contains information indicating whether a given species was reliably confirmed in a specific sample or if its presence is unknown (only species with a TRUE value in the "is_present" column are confimed). Do not join this table with both "meta" and "location" table in the same time, only one of them if necessary.
 

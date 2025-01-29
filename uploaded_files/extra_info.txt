@@ -1,0 +1,10 @@
+The presence of a species was determined by two ways, by qPCR technique (data in "qpcr" table) and by metagenomic sequencing (data is in "mag_presence_absence"). So if it is not spefied in the question then search for the presence of species in both tables. 
+
+
+Example SQL queries:
+
+1) Fetch all descendants of taxonomic node "Coprothermobacter"
+
+"SELECT id FROM distilled.tax_gtdb WHERE name = 'Coprothermobacter'; -- Fetch the taxonomic ID for Coprothermobacter" # The result of this is '310'
+
+"SELECT * FROM distilled.descendants(310); -- Fetch all descendants of taxonomic node 'Coprothermobacter'"

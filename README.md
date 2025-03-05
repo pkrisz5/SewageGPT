@@ -26,5 +26,40 @@ Configuration page: https://chatgpt.com/
 ### Actions
 
 ```
-xxx
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Sewage database",
+    "description": "Retrieves data from Sewage database",
+    "version": "v1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://k8plex-veo.vo.elte.hu/notebook/report/ezc9v9-api"
+    }
+  ],
+  "paths": {
+    "/sewage": {
+      "get": {
+        "description": "GET Sewage data using SQL query",
+        "operationId": "getData",
+        "parameters": [
+          {
+            "name": "sql",
+            "in": "query",
+            "description": "SQL query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
 ```

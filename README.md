@@ -2,6 +2,10 @@
 
 SewageGPT is a customized ChatGPT that is connected with a PostgreSQL database containing information about metagenomic analysis of sewage samples.
 
+Publication:
+
+* Ágnes Becsei, József Stéger, Dávid Visontai, Patrick Munk, Frank M. Aarestrup, István Csabai & Krisztián Papp: **A case study using sewage metagenomic data for assessment of text-to-SQL capabilities in large language models** *Scientific Reports: * https://www.nature.com/articles/s41598-025-28341-7
+
 ## Configuration of web-based customized ChatGPT 
 
 Configuration page: https://chatgpt.com/

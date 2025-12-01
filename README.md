@@ -4,7 +4,7 @@ SewageGPT is a customized ChatGPT that is connected with a PostgreSQL database c
 
 Publication:
 
-* Ágnes Becsei, József Stéger, Dávid Visontai, Patrick Munk, Frank M. Aarestrup, István Csabai & Krisztián Papp: **A case study using sewage metagenomic data for assessment of text-to-SQL capabilities in large language models** *Scientific Reports: * https://www.nature.com/articles/s41598-025-28341-7
+* Ágnes Becsei, József Stéger, Dávid Visontai, Patrick Munk, Frank M. Aarestrup, István Csabai & Krisztián Papp: **A case study using sewage metagenomic data for assessment of text-to-SQL capabilities in large language models** *Scientific Reports:* https://www.nature.com/articles/s41598-025-28341-7
 
 ## Configuration of web-based customized ChatGPT 
 
